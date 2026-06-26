@@ -11,7 +11,7 @@ st.write("テキストの練習")
 
 # 画像
 from PIL import Image 
-image = Image.open("data/画像.png")
+image = Image.open("apps/data/画像.png")
 st.image(image)
 
 # テキストボックス
