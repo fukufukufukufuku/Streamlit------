@@ -37,5 +37,5 @@ btn = st.button("出席")  # ボタンが押されたTrue,押されないとFals
 
 if btn: # ボタンが押されたときの処理
     st.write(f"{date}|{years}|{class_choice}|{studentID}|出席{slider}回目") # 画面に出力
-    if checked: st.write(f"後期も受講") # 画面に出力
+    if checked: st.write(f"後期も受講!") # 画面に出力
     print(f"出席:{studentID}") # コンソールに出力
